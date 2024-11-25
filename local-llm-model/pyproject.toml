@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "local-llm-model"
+version = "0.1.0"
+description = "Demo app to run LLM models locally"
+authors = ["Prasanna <prasannacse2005@gmail.com>"]
+readme = "README.md"
+packages = [{include = "local_llm_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
